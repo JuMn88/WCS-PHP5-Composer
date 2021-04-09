@@ -1,0 +1,16 @@
+{
+    "name": "wcs/quete_composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "JuMn88",
+            "email": "julien-moineau_student2021@wilder.school"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
