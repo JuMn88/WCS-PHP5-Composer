@@ -1,7 +1,7 @@
 <?php
 
-//require '../vendor/autoload.php';
-require '../src/Wcs/Hello.php';
+require '../vendor/autoload.php';
+//require '../src/Wcs/Hello.php';
 
 use App\Wcs\Hello;
 
