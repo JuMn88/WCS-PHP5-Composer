@@ -3,7 +3,13 @@
 require '../vendor/autoload.php';
 //require '../src/Wcs/Hello.php';
 
-use App\Wcs\Hello;
+//Answer to Challenge PHP5.1
+/**use App\Wcs\Hello;
 
-$hello = new App\Wcs\Hello();
-echo $hello->talk();
+$hello = new Hello();
+echo $hello->talk();*/
+
+use HelloWorld\SayHello;
+
+$sayHello = new SayHello();
+echo $sayHello->world();
